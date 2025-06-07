@@ -1,0 +1,35 @@
+.footer {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.footer_text {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem;
+  }
+  
+  .footer_text {
+    font-size: 1rem;
+  }
+  
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
